@@ -11,4 +11,4 @@ Enemies will attack the player in waves continually until they reach their targe
 
 The controller will be made up of a potentiometer and a push button, these will allow the player to change the frequency in-game as well as confirm their selection. The potentiometer values will be grouped to values between 1 and 8, which will be displayed on screen. The controller is very simple but the game had to have considerations for the mechanical limitations created by the potentiometer as it isn't possible to quickly cycle between states. 
 
-![]('Controller Mockup.jpg'?raw=true)
+![]("Controller Mockup.jpg"?raw=true)
