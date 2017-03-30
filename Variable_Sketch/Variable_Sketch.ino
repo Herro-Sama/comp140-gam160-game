@@ -18,49 +18,49 @@ void loop()
   {
     if  (potval <= 127); 
       {
-      println(1)
-      Return
+      Serial.println(1);
+      return;
       }
-    else if (potval <= 255)
+    if (potval <= 255)
       {
-      println(2)
-      Return
+      Serial.println(2);
+      return;
       }
     else if (potval <= 383)
       {
-      println(3)
-      Return
+      Serial.println(3);
+      return;
       }
     else if (potval <= 511)
       {
-      println(4)
-      Return
+      Serial.println(4);
+      return;
       }  
     else if (potval <= 639)
       {
-      println(5)
-      Return
+      Serial.println(5);
+      return;
       }
     else if (potval <= 767)
       {
-      println(6)
-      Return
+      Serial.println(6);
+      return;
       }    
     else if (potval <= 895)
       {
-      println(7)
-      Return
+      Serial.println(7);
+      return;
       }
     else
     {
-    println(8)
-    Return
+    Serial.println(8);
+    return;
     }
    
   }
   else
   {
-    Return
+    return;
   }
 
 }
